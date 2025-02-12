@@ -34,7 +34,8 @@ This project is a **Multi-User To-Do List API** built using **Django REST Framew
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/marzan-666/API_for_multiuser_todo_list
+   git clone https://github.com/your-username/todo-api.git
+   cd todo-api
    ```
 
 2. **Create a virtual environment and activate it:**
@@ -55,27 +56,27 @@ This project is a **Multi-User To-Do List API** built using **Django REST Framew
    - Create a `.env` file in the project root.
    - Add database credentials and JWT secret key:
      ```sh
-    SECRET_KEY=your_secret_key
-    DATABASE_NAME=your_db_name
-    DATABASE_USER=your_db_user
-    DATABASE_PASSWORD=your_db_password
-    DATABASE_HOST=localhost
-    DATABASE_PORT=5432
+     SECRET_KEY=your_secret_key
+     DATABASE_NAME=your_db_name
+     DATABASE_USER=your_db_user
+     DATABASE_PASSWORD=your_db_password
+     DATABASE_HOST=localhost
+     DATABASE_PORT=5432
      ```
 
-6. **Apply database migrations:**
+5. **Apply database migrations:**
 
    ```sh
    python manage.py migrate
    ```
 
-7. **Create a superuser (optional for admin access):**
+6. **Create a superuser (optional for admin access):**
 
    ```sh
    python manage.py createsuperuser
    ```
 
-8. **Run the development server:**
+7. **Run the development server:**
 
    ```sh
    python manage.py runserver
@@ -109,5 +110,5 @@ Feel free to open issues and submit pull requests for improvements.
 
 ## Contact
 
-For any questions or support, contact [marzan666@gmail.com](mailto\:marzan666@gmail.com).
+For any questions or support, contact [marzan666@gmail.com](mailto\:your-email@example.com).
 
