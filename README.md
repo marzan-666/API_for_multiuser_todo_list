@@ -55,31 +55,27 @@ This project is a **Multi-User To-Do List API** built using **Django REST Framew
    - Create a `.env` file in the project root.
    - Add database credentials and JWT secret key:
      ```sh
-     DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'your_database',
-        'USER': 'your_postgresql_user',
-        'PASSWORD': 'your_password',
-        'HOST': 'localhost',
-        'PORT': '5432',
-    }
-}
+    SECRET_KEY=your_secret_key
+    DATABASE_NAME=your_db_name
+    DATABASE_USER=your_db_user
+    DATABASE_PASSWORD=your_db_password
+    DATABASE_HOST=localhost
+    DATABASE_PORT=5432
      ```
 
-5. **Apply database migrations:**
+6. **Apply database migrations:**
 
    ```sh
    python manage.py migrate
    ```
 
-6. **Create a superuser (optional for admin access):**
+7. **Create a superuser (optional for admin access):**
 
    ```sh
    python manage.py createsuperuser
    ```
 
-7. **Run the development server:**
+8. **Run the development server:**
 
    ```sh
    python manage.py runserver
